@@ -1,0 +1,39 @@
+.active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+
+}
+
+.navbar a:hover {
+color: #3498db;
+}
+.navbar-brand{
+    font-size: 1.9rem;
+    color:#3498db
+}
+
+#header .btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 70px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid  #3498db ;
+    text-decoration: none;
+}
+
+#header .btn-get-started:hover{
+    background: #3498db;
+    color: white;
+}
+
+#header .animated{
+    animation: up-down  2s ease-in-out infinite alternate-reverse both ;
+}
+.brand-name{
+    color: #3498db;
+}
+
