@@ -8,12 +8,12 @@ import ServiceData from './ServicesData'
 function Services() {
   return (
     <>
-      <Common
+      {/* <Common
         pageLines="we are the community of Software Developers"
         imageSrc={img}
         btnName="Contact Us"
         visit="/contact"
-      />
+      /> */}
 
 <div className="my-5">
       <h1 className="text-center">Our Services </h1>

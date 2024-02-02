@@ -5,6 +5,10 @@ import Common from './Common'
 function About() {
   return (
     <>
+       
+     <div className="my-5">
+      <h1 className="text-center">About Us </h1>
+      </div>
     <Common
            pageLines = 'we are the community of Software Developers'
            imageSrc = {img}
