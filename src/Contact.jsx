@@ -19,7 +19,7 @@ function Contact() {
  }
   const formSubmit= (event)=>{
     event.preventDefault();
-    alert(`${data.fullname}`)
+    alert(`Hi ${data.fullname} your request has been submitted successfully`)
 
   }
   return (
