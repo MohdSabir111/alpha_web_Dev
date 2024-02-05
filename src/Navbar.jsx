@@ -33,7 +33,7 @@ function Navbar() {
                       <li className="nav-item">
                         <NavLink
                           
-                          className="nav-link active"
+                          className="nav-link "
                           aria-current="page"
                           to="/"
                         >
