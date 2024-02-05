@@ -20,7 +20,7 @@ function Navbar() {
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-label="Toggle navigation"
                   >
                     <span className="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ function Navbar() {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li className="nav-item">
                         <NavLink
-                          activeclassname="active"
+                          
                           className="nav-link active"
                           aria-current="page"
                           to="/"
@@ -42,7 +42,7 @@ function Navbar() {
                       </li>
                       <li className="nav-item">
                         <NavLink
-                          activeclassname="active"
+                          
                           className="nav-link"
                           to="/services"
                         >
@@ -51,7 +51,7 @@ function Navbar() {
                       </li>
                       <li className="nav-item">
                         <NavLink
-                          activeclassname="active"
+                          
                           className="nav-link"
                           to="/about"
                         >
@@ -60,7 +60,7 @@ function Navbar() {
                       </li>
                       <li className="nav-item">
                         <NavLink
-                          activeclassname="active"
+                          
                           className="nav-link"
                           to="/contact"
                         >
