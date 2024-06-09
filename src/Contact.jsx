@@ -24,15 +24,15 @@ function Contact() {
   }
   return (
     <>
-      <div className="my-5">
+      <div className="my-5"  >
         <h1 className="text-center">Contact Us </h1>
       </div>
 
-      <div className="container contact_div">
-        <div className="row">
+      <div className="container contact_div"id="contact" >
+        <div className="row" >
           <div className="col-md-6 col-10 mx-auto ">
             <form onSubmit={formSubmit}>
-              <div className="mb-3">
+              <div className="mb-3 " >
                 <label   className="form-label">
                   Full Name
                 </label>

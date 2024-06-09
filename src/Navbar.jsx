@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
-
+//import { NavLink } from "react-router-dom";
+ import { HashLink as NavLink } from "react-router-hash-link";
 function Navbar() {
   return (
     <>
@@ -11,7 +11,7 @@ function Navbar() {
             <div>
               <nav className="navbar navbar-expand-lg navbar-light bg-none">
                 <div className="container-fluid">
-                  <NavLink className="navbar-brand " to="/">
+                  <NavLink className="navbar-brand " smooth to="#">
                     Alpha Devs
                   </NavLink>
                   <button
@@ -35,7 +35,7 @@ function Navbar() {
                           
                           className="nav-link "
                           aria-current="page"
-                          to="/"
+                         smooth to="/"
                         >
                           Home
                         </NavLink>
@@ -44,7 +44,7 @@ function Navbar() {
                         <NavLink
                           
                           className="nav-link"
-                          to="/services"
+                         smooth to="#services"
                         >
                           Services
                         </NavLink>
@@ -53,7 +53,7 @@ function Navbar() {
                         <NavLink
                           
                           className="nav-link"
-                          to="/about"
+                          smooth to="#about"
                         >
                           About
                         </NavLink>
@@ -62,7 +62,7 @@ function Navbar() {
                         <NavLink
                           
                           className="nav-link"
-                          to="/contact"
+                          smooth to="#contact"
                         >
                           Contact
                         </NavLink>
